@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>juego ramdom</title>
+    </head>
+    <body>
+        <h1>Felicidades</h1>
+        <script type="text/javascript">
+            let player1,player2;
+            player1=prompt('Jugador 1 elija piedra, papel, tijera, lagarto o spock');
+            player2=prompt('Jugador 2 elija piedra, papel, tijera, lagarto o spock');
+            if (player1=='piedra' && player2=='piedra')
+            {document.write('quedan empatados');}
+            else if  (player1=='piedra' && player2=='tijera')
+            {document.write('Jugador 1 gana');}  
+            else if  (player1=='tijera' && player2=='piedra')
+            {document.write('Jugador 2 gana');}
+            else if  (player1=='tijera' && player2=='tijera')
+            {document.write('quedan empatados');}
+            else if  (player1=='piedra' && player2=='papel')
+            {document.write('Jugador 2 gana');}
+            else if  (player1=='papel' && player2=='piedra')
+            {document.write('Jugador 1 gana');}
+            else if  (player1=='papel' && player2=='tijera')
+            {document.write('Jugador 2 gana');}
+            else if  (player1=='tijera' && player2=='papel')
+            {document.write('Jugador 1 gana');}
+            else if  (player1=='papel' && player2=='papel')
+            {document.write('quedan empatados');}
+            else if  (player1=='lagarto' && player2=='tijera')
+            {document.write('Jugador 2 gana');}
+            else if  (player1=='tijera' && player2=='lagarto')
+            {document.write('Jugador 1 gana');}
+            else if  (player1=='piedra' && player2=='lagarto')
+            {document.write('Jugador 1 gana');}
+            else if  (player1=='lagarto' && player2=='piedra')
+            {document.write('Jugador 2 gana');}
+            else if  (player1=='lagarto' && player2=='papel')
+            {document.write('Jugador 1 gana');}
+            else if  (player1=='papel' && player2=='lagarto')
+            {document.write('Jugador 2 gana');}
+            else if  (player1=='lagarto' && player2=='spock')
+            {document.write('Jugador 1 gana');}
+            else if  (player1=='spock' && player2=='lagarto')
+            {document.write('Jugador 2 gana');}
+            else if  (player1=='lagarto' && player2=='lagarto')
+            {document.write('quedan empatados');}
+            else if  (player1=='spock' && player2=='tijera')
+            {document.write('Jugador 1 gana');}
+            else if  (player1=='tijera' && player2=='spock')
+            {document.write('Jugador 2 gana');}
+            else if  (player1=='spock' && player2=='piedra')
+            {document.write('Jugador 1 gana');}
+            else if  (player1=='piedra' && player2=='spock')
+            {document.write('Jugador 2 gana');}
+            else if  (player1=='papel' && player2=='spock')
+            {document.write('Jugador 1 gana');}
+            else if  (player1=='spock' && player2=='papel')
+            {document.write('Jugador 2 gana');}
+            else if  (player1=='spock' && player2=='spock')
+            {document.write('quedan empatados');}
+            else {document.write('Por favor aprenda a escribir :)');}
+            </script>
+    </body>
+</html>
